@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layers and Z Index</title>
+	<style>
+		.a 1{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 100px;
+			width: 10px;
+			background-color: lightpink;
+			align-content: center;
+			text-align: center;
+			z-index: 0;
+		}
+		.b 2{
+			position: absolute;
+			top: 50px;
+			left: 100px;
+			height: 100px;
+			width: 150px;
+			background-color: lightblue;
+			align-content: center;
+			text-align: center;
+			z-index: 0;
+		}
+		.c 3{
+			position: absolute;
+			top: 20px;
+			left: 40px;
+			height: 100px;
+			width: 150px;
+			background-color: lightsalmon;
+			align-content: center;
+			text-align: center;
+			z-index: 0;
+		}
+		.a:hover{
+			z-index: 2;
+			border: solid;
+			box-shadow: 0px 0px 10px brown;
+
+		}
+		.b:hover{
+			z-index: 2;
+			border: solid;
+			box-shadow: 0px 0px 10px brown;
+
+		}
+		.c:hover{
+			z-index: 2;
+			border: solid;
+			box-shadow: 0px 0px 10px brown;
+
+		}
+
+
+
+	</style>
+</head>
+
+<body>
+	<div class="a">
+		Layer 1
+		<div class="1">
+		<img src="http://1.bp.blogspot.com/-I4lfeHiOPPo/T0cKkXEoXrI/AAAAAAAAEkU/ViKNVO6AmbA/s1600/cute_tweety_cartoon_characters.png" height="100px" width="100px">
+		</div>
+	</div>
+	<div class="b">
+		Layer 2
+		<div class="2">
+		<img src="http://www.clipartbest.com/cliparts/dcr/65o/dcr65oGKi.jpg" height="100px" width="100px">
+	    </div>
+	</div>
+	<div class="c">
+		Layer 3
+		<div class="3">
+		<img src="https://tse1.mm.bing.net/th?id=OIP.Jxgb9GwfTqedcxJ6yft6YQHaHu&pid=Api&P=0&h=180" height="100px" width="100px">
+	    </div>
+	</div>
+
+</body>
+</html>

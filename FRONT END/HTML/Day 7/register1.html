@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register Page</title>
+</head>
+<body bgcolor="DDA0DD">
+	<br>
+	<br>
+	<br>
+	<fieldset>
+          <legend>Register Form</legend>
+             <h2 align="center">WELCOME TO REGISTER PAGE</h2>
+              <br>
+              <br>
+              <form action="../Assignment/Assignment-03.html">
+			<table  align="center" >
+			<tr>
+				<td>
+				<label for="first name">First name :</label></td>
+				<td>
+				<input type="text" id="name" required placeholder="First name" autofocus></td>
+			</tr>
+			<tr>
+				<td><label for="last name">Last Name :</label></td>
+				<td>
+				<input type="text" id="name" placeholder="Last name"></td>
+			</tr>
+			<tr>
+				<td><label for="age">Age :</label></td>
+				<td>
+					<input type="number" id="age" >
+				</td>
+			</tr>
+			     <tr>
+				   <td> 
+				   	  <label for="mobile no"> Mobile No:</label>
+					</td>
+					   <td>
+						 <input type="number" id="mobile no" placeholder="****"   required>
+						</td>
+						</tr>
+						<tr>
+				   <td> 
+				   	  <label for="email"> Email :</label>
+					</td>
+					   <td>
+						 <input type="email" id="mail"placeholder="example123@gmail.com" size="25"   required>
+						</td>
+						</tr>
+						<tr>
+				   <td> 
+				   	  <label for="password">Password :</label>
+					</td>
+					   <td>
+						 <input type="password" id="password" required>
+						</td>
+						</tr>
+						<tr>
+				   <td> 
+				   	  <label for="confirm password">Confirm Password:</label>
+					</td>
+					   <td>
+						 <input type="password" id="password" required>
+						</td>
+						</tr>
+				    <tr>
+					  <td rowspan="3">
+						<label for="gender"> Gender :</label></td>
+						  <td>
+							<input type="radio" id="gender" name="gender">Male
+					    </td>
+					    </tr>
+						    <tr>
+							   <td>
+								<input type="radio" id="gender" name="gender">Female
+							</td>
+						</tr>
+							<tr>
+								<td>
+									<input type="radio" id="gender" name="genders">Others
+								</td>
+							</tr>		
+							<tr>
+								<td rowspan="3">
+									<label for="hobbies">Hobbies :</label>
+								</td>
+								<td>
+									<input type="checkbox" id="hobby">Playing
+							</tr>
+							<tr>
+								<td>
+									<input type="checkbox" id=" hobby">Eating</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="checkbox" id="hobby">Sleeping</td>
+									</tr>
+									<td>
+										<label>Select State :</label>
+									</td>
+								<td>
+									<select>
+											<option>-----select your state-----</option>
+											<option value="andhrapradesh">AP</option>
+											<option value="telengana">TG</option>
+											<option value="tamil nadu">TN</option>
+											<option value="uttar pradesh">UP</option>
+											<option value="madhya pradesh">MP</option>
+									</select>
+									    <tr>
+											<td>
+												<label>City :</label>
+									   </td>
+									<td>
+										<input type="text" id="value" list="city names" required>
+										     <datalist id="city names">
+										        <option value="Amaravati">
+											    <option value="Vizag">
+												<option value="Guntur">
+												<option value="Rajahmundry">
+												<option value="Kurnool">
+												<option value="Warangal">
+										</datalist>
+								<tr>
+									<td>
+									 <label>Description:</label>
+								</td>
+								 <td>
+									<textarea rows="5" cols="30" disabled>write a description here..</textarea>
+								</td>
+								<tr>
+									<td>
+										<label>Upload Document :</label>
+									</td>
+								
+								
+									<td>
+										<input type="file" id="file">
+									</td>
+								</tr>
+
+									<tr>
+									  <td colspan="2" align="center">
+									<button type="submit">Submit</button>
+									<button type="reset">Reset</button>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tr>
+               </td>
+           </tr>
+       </td>
+    </td>
+ </tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
